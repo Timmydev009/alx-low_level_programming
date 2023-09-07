@@ -6,7 +6,7 @@
  *  * main - check the code for ALX School students.
  *   *
  *    * Return: Always 0.
- *     */
+ */
 int main(void)
 {
 	char *s;
@@ -16,7 +16,7 @@ int main(void)
 		{
 			printf("failed\n");
 			return (1);
-							    }
+		}
 			printf("%s\n", s);
 			free(s);
 			return (0);
